@@ -1,0 +1,52 @@
+﻿/* Reset */
+body {
+	margin: 0;
+}
+html {
+	width: 100%;
+	height: 100%;
+}
+#wrapper {
+	margin: 0 auto;
+	position: relative;
+}
+#banner {
+	width: 100%;
+	padding: 0;
+	overflow: hidden;
+}
+#logo {
+	float: left;
+}
+#navigation {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 30%;
+}
+#social-media {
+	float: none;
+}
+#page-heading {
+	float: right;
+	width: 70%;
+}
+#sub-heading {
+	float: right;
+	width: 70%;
+}
+#header {
+	float: right;
+	width: 70%;
+}
+#content-area {
+	float: right;
+	width: 70%;
+	margin: 0px auto;
+}
+#content-area2 {
+	float: right;
+	width: 70%;
+	margin: 0px auto;
+}

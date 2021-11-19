@@ -1,0 +1,57 @@
+body {
+		font-family: Arial, Helvetica, sans-serif;
+}
+
+form fieldset {
+		border: 0.2em solid #996633;
+        display: inline-block;
+		text-align: left;
+}
+form th {
+	text-align: center;
+}
+form input.col1 {
+        width: 11em;
+	    text-align: right;
+}
+form input.col2 {
+        width: 5em;
+	    text-align: right;
+}
+form input.col3 {
+        width: 57em;
+}
+form input.col4 {
+        width: 4em;
+	    text-align: right;
+}
+form input.col5 {
+        width: 4.5em;
+        text-align: right;
+}
+form input.col6 {
+        width: 5em;
+        text-align: right;
+}
+.button {
+		font-size: small;
+		width: 8em;
+    	background-color: #EEEEEE;
+    	margin: 0;
+    	padding: 6px 0;
+    	border: 1px solid;
+    	color: #780101;
+    	cursor: pointer;
+    	text-decoration: none;
+    	display: inline-block;
+    	text-align: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#footer {
+		margin: 1em 0 0 0;
+		text-align: center;
+}

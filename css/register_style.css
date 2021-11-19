@@ -1,0 +1,44 @@
+body {
+		font-family: Arial, Helvetica, sans-serif;
+}
+form fieldset {
+		border: 0.2em solid #996633;
+        display: inline-block;
+}
+form label {
+        width: 10em;
+        margin-right: 1em;
+        float: left;
+        text-align: right;
+        display: block;
+}
+form input {
+        width: 13em;
+		margin: 0.1em 0;
+}
+::placeholder {
+        float: right;
+}
+.button {
+		width: 6em;
+        margin: 1em 1em 0 1em;
+  		color: #780101;
+		cursor: pointer;
+		padding: 0.3em 0;
+		text-decoration: none;
+		display: inline-block;
+		text-align: center;
+}
+#footer {
+		margin: 1em 0 0 0;
+		text-align: center;
+}
+.errorClass {
+        background-color: #FFCC66;
+}
+#errorDiv {
+        color: blue;
+}
+.errorFeedback {
+        visibility: hidden;
+}

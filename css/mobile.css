@@ -1,0 +1,356 @@
+﻿/* Media Queries for mobile */
+@media screen and (max-width: 500px) and (min-width: 50px) {
+body {
+	margin: 0;
+	height: 800px;
+}
+#authForm {	
+	font-size: 1em;
+	font-weight: bold;
+}
+#authForm .button {
+		width: 4em;
+        margin: 1em 1em 0 1em;
+		padding: 0.3em 0;
+}
+#wrapper {
+	max-width: 500px;
+	height: 800px;
+	margin: 0 auto;
+}
+#banner {
+	height: 150px;
+	max-width: 500px;
+	background: #FCF5EF url('../../images/banner.jpg') no-repeat center top;
+	position: relative;
+	z-index: 0;
+}
+#banner .responsive {
+	width: 100%;
+	margin: 0 auto;
+}
+#logo {
+	position: absolute;
+	float: left;
+	width: 20px;
+	top: 90px;
+	left: 5px;
+}
+#logo img.responsive {
+	width: 50px;
+	height: auto;
+	float: left;
+	z-index: 3;
+	position: absolute;
+}
+#banner h1 {
+	font-size: 1em;
+	z-index: 3;
+	position: absolute;
+	right: 50px;
+}
+a.btn {
+	font-size: 1em;
+	border: 2px solid orange;
+	margin: 150px 0 0 120px;
+	padding: 5px 10px;
+}
+#navigation {
+	height: 650px;
+	font-size: x-small;
+}
+#navigation ul {
+	margin-top: 80px;
+	padding: 0 10px;
+	display: table;
+	list-style-type: none;
+}
+
+
+#navigation ul li {
+	width: 100%;
+	font-size: x-small;
+}
+#navigation ul li a {
+	display: block;
+	padding: 5px 3px;
+	font-size: x-small;
+}
+
+#navigation ul li a:hover {
+	width: 125px;
+	font-size: x-small;
+
+}
+#navigation ul li ul.dropdown {
+	font-size: x-small;
+}
+#navigation ul li:hover ul.dropdown {
+	font-size: x-small;
+}
+#navigation ul li ul.dropdown li {
+	font-size: x-small;
+}
+
+#page-heading h1 {
+	font-size: medium;
+	margin: 4px 0 0 0;
+}
+#sub-heading h2 {
+	font-size: small;
+	margin: 4px 0 0 0;
+}
+#content-area2 {
+	height: 560px;
+}
+#content-area2 table {
+	margin: 10px 20px 10px 30px;
+	height: 120px;
+	margin-bottom: -0.9rem;
+}
+#content-area2 table .th {
+	height: 8px;
+	line-height: 8px;
+	font-size: 15px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+#content-area2 table .tr1 img {
+	width: auto;
+	height: 50px;
+}
+#content-area2 table .tr2 img {
+	width: auto;
+	height: 80px;
+}
+#content-area2 table p {
+	margin: 0;
+	text-align: center;
+	color: maroon;
+	font-size: xx-small;
+}
+#content-area {
+	height: 605px;
+}
+#content-area table {
+	margin: 10px 20px 10px 50px;
+}
+#content-area table .td1 img {
+	height: auto;
+	margin: 0 0 0 50px;
+}
+#content-area table .td2 img {
+	height: auto;
+	margin: 2px 0 0 50px;
+}
+#content-area .image1, .image2, .image4, .image5, .image7, .image8 {
+	display: none;
+}
+#content-area .image3, image15 {
+	display: block;
+	width: 100%;
+}
+#content-area .image6 {
+	display: block;
+	width: 52%;
+}
+#content-area .image16 {
+	display: block;
+	width: 55%;
+}
+#content-area .image9 {
+	display: block;
+	width: 45%;
+}
+#content-area2 .image9 {
+	display: block;
+	width: 45%;
+}
+#content-area2 .image7, .image8 {
+	display: none;
+}
+#navigation ul li {
+	font-size: small;
+}
+#header {
+	width: 70%;
+	height: 45px;
+}
+#header ul li img {
+	width: auto;
+	height: 30px;
+	margin: 0 10px 0 0;
+}
+#header ul {
+	margin-top: 0;
+}
+#header .search {
+	float: left; 
+	margin-top: 0.7em;
+	}
+#header p {
+	color: saddlebrown; 
+	font-weight: bold;
+	font-size: x-small;
+	margin-top: 0px;
+}	
+#page-heading {
+	width: 70%;
+	height: 25px;
+}
+#sub-heading {
+	width: 70%;
+	height: 20px;
+}
+#content-area .order-btn {
+	width: 90px;
+}
+#content-area h2 {
+	font-size: 15px;
+	margin-left: 10px;
+}
+#content-area h3 {
+	font-size: 15px;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+#content-area p {
+	font-size: 11px;
+	margin-left: 6px;
+}
+#content-area img {
+	margin: 5px 9px 1px 1px;
+}
+#content-area2 h3 {
+	font-size: 1em;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+#content-area2 p {
+	font-size: 14px;
+	margin-left: 6px;
+}
+#content-area2 .image7, .image8, .image9 {
+	margin: 45px 15px 15px 3px;
+}
+#social-media p {
+	font-size: small;
+}
+#social-media ul {
+	margin: 5px 0 0 18px;
+}
+#social-media ul li {
+	display: inline;
+	margin: 0 5px;
+}
+#social-media ul li img {
+	width: 20px;
+	height: 20px;
+}
+#content-area3 p {
+	font-size: 11px;
+	margin-left: 0;
+	margin-right: 35px;
+}
+
+
+.row {
+	margin-left: 40px; 
+	margin-bottom: 0;
+}
+
+#content-area .image11 {
+	width: 50px;
+	height: 35px;
+	margin-left: 0px
+}
+#content-area .image12 {
+	width: 280px;
+	height: 160px;
+
+}
+
+
+.column {
+	width: 50px;
+  padding: 5px 5px 0 5px;
+
+}
+
+.container {
+  margin: 0px 20px 0px 20px; 
+}
+
+#imgtext {
+  bottom: 20px;
+  left: 15px;
+  font-size: 10px;
+}
+
+.closebtn {
+  top: 45px;
+  right: 18px;
+  font-size: 20px;
+}
+
+#we-accept h2 {
+	font-size: medium;
+	margin-left: 10px;
+	float: left;
+	margin-top: 0;
+}
+#we-accept ul li img {
+	display: inline-block;
+	float: left;
+	width: 5%;
+	height: auto;
+	margin-right: 2px;
+	margin-left: 0;
+	padding-top: 20px;
+}
+#sign-up {
+	width: 40%;
+	float: right;
+	margin-right: 30px;
+}
+#sign-up h2 {
+	font-size: medium;
+	margin-left: 50px;
+	float: right;
+	margin-bottom: 0;
+}
+#sign-up img {
+	position: absolute;
+	float: left;
+	width: 5%;
+	margin-left: 20px;
+	height: auto;
+}
+.email {
+	height: 10px;
+	margin-left: 20px;
+}
+.email th {
+	border: 2px solid black;
+	font-size: xx-small;
+	width: 120px;
+}
+.email td {
+	border: 2px solid black;
+	text-align: center;
+	font-size: xx-small;
+	font-weight: normal;
+	width: 40px;
+}
+#bottom-bar {
+	height: 90px;
+	width: 100%;
+	margin-top: 650px;
+}
+#footer {
+	font-size: xx-small;
+	width: 100%;
+	height: 25px;
+	overflow: hidden;
+}
+}
