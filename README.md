@@ -18,19 +18,19 @@
 
 ## Functions and Features
 > Dynamic web pages developed including following features
-* Dynamically rendered enlargement of item images and order form provided on Member's page via query string
-* Retrieving the required information by using the Location object Method under Document Object Model(DOM) interface
-* Member authentication and Session management implemented via PHP
-* Object Oriented Programming(OOP) methodology used for the structure of Class user object
-* Logon/logoff facility for members-only webpage, member verified based on the member database
-* Self-register through registration form for new customers
-* Another registration form designed for customer to become a member
-* Appropriate validation checks carried out during self-registration process
-* Encrypted password using Blowfish with salt
-* Enhancing member's experience with personalised welcome message display once logged on
-* Connection and disconnection to/from the Bazaar Ceramics Database which achieved with the support of MariaDB Database and Apache Web Server(MAMP)
-* Member's shopping cart and order facility added to the members page with options to update/delete
-* Members page interface amended to reflect the status of the shopping cart
+* Dynamically rendered enlargement of item images and order form provided on Member's page via `query string`
+* Retrieving the required information by using the `Location object Method` under `Document Object Model(DOM)` interface
+* Member `authentication` and `Session management` implemented via `PHP`
+* `Object Oriented Programming(OOP)` methodology used for the structure of `Class user object`
+* `Logon/logoff` facility for `members-only` webpage, member verified based on the member `database`
+* `Self-register` through registration form for new customers
+* Another registration form designed for customer to become a `member`
+* Appropriate `validation` checks carried out during self-registration process
+* `Encrypted password` using `Blowfish` with `salt`
+* Enhancing member's experience with `personalised` welcome message display once logged on
+* Connection and disconnection to/from the Bazaar Ceramics Database which achieved with the support of `MariaDB` Database and `Apache Web Server(MAMP)`
+* Member's `shopping cart` and `order` facility added to the members page with options to update/delete
+* Members page interface amended to reflect the `status` of the shopping cart
 ## Conclusion
 > Issues and Resolution/ Achievements 
 * `Developer Tools` and `Inspect Element` were introduced to me at the last phase of this project. Using these could have improved the quality of CSS part with wiser choice of codes in clean manner(Especially for Responsive Design for User interface).
